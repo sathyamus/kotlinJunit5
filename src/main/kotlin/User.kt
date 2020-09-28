@@ -3,6 +3,6 @@ class User(val id: Int, val name: String) {
         private set
 
     fun changeReputation(number: Int) {
-        //reputation+= number
+        reputation+= number
     }
 }
