@@ -16,4 +16,5 @@ class UserTest {
         user.changeReputation(-5)
         Assertions.assertEquals(5, user.reputation)
     }
+    
 }
