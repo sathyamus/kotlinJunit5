@@ -27,7 +27,7 @@ class UserTest {
     @Test
     fun `should not throw exception when my reputation is non ZERO`() {
         user.changeReputation(5)
-        Assertions.assertDoesNotThrow { // Exception::class.java
+        Assertions.assertDoesNotThrow {
             println(this)
         }
     }
